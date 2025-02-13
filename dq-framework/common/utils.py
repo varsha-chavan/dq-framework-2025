@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Databricks notebook source
-=======
+
 def fetch_execution_plan(execution_plan_with_rule_df):
     """
         Extract the plans information for entity from execution plan df
@@ -29,7 +28,7 @@ def merge_plans_with_rules(execution_plan_df,rules_df):
         return execution_plan_with_rule_df
     except Exception as e:
         logger.error(f"Exception occured in merge_plans_with_rules(): {e}")
->>>>>>> other-repo1/dq-framework-dev-202501
+        
 
 # fetch path from entity master table path
 def fetch_entity_path(entity_master_df):
