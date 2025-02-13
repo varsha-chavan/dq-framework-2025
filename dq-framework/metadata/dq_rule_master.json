@@ -5,13 +5,8 @@
         {
           "name": "rule_id",
           "type": "int",
-<<<<<<< HEAD
-          "primary_key": true,
-          "nullable": false          
-=======
           "primary_key": True,
           "nullable": False
->>>>>>> other-repo1/dq-framework-dev-202501
         },
         {
           "name": "rule_name",
@@ -34,13 +29,8 @@
         {
           "name": "last_updated_date",
           "type": "date",
-<<<<<<< HEAD
-          "primary_key": false,
-          "nullable": false
-=======
           "primary_key": False,
           "nullable": False
->>>>>>> other-repo1/dq-framework-dev-202501
         }
       ]
     }

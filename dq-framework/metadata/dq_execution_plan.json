@@ -4,27 +4,15 @@
         {
           "name": "ep_id",
           "type": "int",
-<<<<<<< HEAD
-          "nullable": false
-             
-=======
-          "nullable": False
->>>>>>> other-repo1/dq-framework-dev-202501
+          "nullable": False,
+          "primary_key" : True
         },
         {
           "name": "rule_id",
-          "type": "int",
-<<<<<<< HEAD
-          "nullable": false,
-          "foreign_key": true,
-          "references": 
-             {
-=======
           "nullable": False,
           "foreign_key": True,
           "references":
             {
->>>>>>> other-repo1/dq-framework-dev-202501
                   "table": "df_rule_master",
                   "column": "rule_id"
             }
@@ -32,17 +20,10 @@
         {
           "name": "entity_id",
           "type": "int",
-<<<<<<< HEAD
-          "nullable": false,
-          "foreign_key":true,
-          "references": 
-             {
-=======
           "nullable": False,
           "foreign_key":True,
-          "references":
-            {
->>>>>>> other-repo1/dq-framework-dev-202501
+          "references": 
+             {
                   "table": "dq_entity_master",
                   "column": "entity_id"
             }
@@ -72,11 +53,7 @@
         {
           "name": "last_update_date",
           "type": "date",
-<<<<<<< HEAD
-          "nullable": false
-=======
           "nullable": False
->>>>>>> other-repo1/dq-framework-dev-202501
         }
       ]
     }
