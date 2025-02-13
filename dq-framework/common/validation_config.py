@@ -1,5 +1,4 @@
 # Databricks notebook source
-
 import json
 import os
 from pathlib import Path
@@ -8,9 +7,9 @@ from common.constants import DIRECTORY_PATH, REQUIRED_TABLE_METADATA
 
 # Dictionary with table_names with their respective dfs
 dfs = {
-    "dq_entity_master": entity_master_df,
-    "df_rule_master": rule_master_df,
-    "dq_execution_plan": execution_plan_df
+    "dq_entity_master": entity_master_filtered_df,
+    "df_rule_master": rule_master_filtered_df,
+    "dq_execution_plan": execution_plan_filtered_df
 }
 
 # Loads metadata JSON files from the specified directory path.

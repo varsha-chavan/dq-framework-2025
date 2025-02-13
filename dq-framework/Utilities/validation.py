@@ -1,8 +1,4 @@
 # Databricks notebook source
-import json
-import sys
-import os
-from pathlib import Path
 from pyspark.sql.functions import *
 from common.validation_config import dfs,metadata,validations
 from common.constants import VALIDATION_STEPS
