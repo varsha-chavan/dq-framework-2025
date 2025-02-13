@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Databricks notebook source
 
-=======
-=======
-# Databricks notebook source
->>>>>>> 8bc73f8 (changes in constant.py,validation_config .py and validation.py files)
 import sys
 from awsglue.utils import getResolvedOptions
 from common.custom_logger import getlogger
@@ -26,7 +20,6 @@ def main():
     entity_id = args['entity_id']
     # load config tables
 
-<<<<<<< HEAD
     """
         #runtime input from glue job.
         Step 1: Get custom logger.
@@ -38,7 +31,7 @@ def main():
         Step 7: Execute the DQ framework.
     """
     execute_validations(validations)
-=======
+
     # apply validation
     
     execute_validations(validations)
@@ -50,7 +43,7 @@ def main():
     execution_plan_with_rule_df = merge_plans_with_rules(execution_plan_df,rule_master_df)
     dq_execution(execution_plan_with_rule_df,entity_data_df,spark)
 
->>>>>>> other-repo1/dq-framework-dev-202501
+
 
 if __name__ == "__main__":
     main()
