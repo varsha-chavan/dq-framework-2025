@@ -1,3 +1,4 @@
+# Databricks notebook source
 # Load configuration table data
 def config_loader(s3_table_path,entity_id):
         """
@@ -30,3 +31,5 @@ def entity_data_loader(s3_table_path):
         Output:
         dataframe : dataframe with data of the entity
         """
+
+#comment
