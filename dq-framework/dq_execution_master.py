@@ -4,7 +4,6 @@ import sys
 from awsglue.utils import getResolvedOptions
 from common.custom_logger import getlogger
 from common.utils import *
->>>>>>> other-repo1/dq-framework-dev-202501
 from common.constants import *
 from common.validation_config import *
 from common.custom_logger import *
